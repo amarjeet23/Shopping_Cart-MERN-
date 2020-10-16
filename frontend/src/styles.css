@@ -1,0 +1,52 @@
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #343a40;
+  margin:0px;
+  padding:0px;
+  text-align:center;
+}
+.alert{
+  position:absolute;
+  top:0px;
+  right:0px;
+  
+}
+.admin{
+  display:grid;
+  grid-template-columns: 250px auto;
+  column-gap: 1px;
+}
+.admin Link{
+  width:150px;
+}
+.header_list a{
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  margin:10px;
+  padding: 8px;
+  ;
+  
+}
+.header_list {
+  text-align: start;
+}
+#signout{
+  text-align: right;
+}
+.cardbox{
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  grid-row-gap :20px;
+  grid-column-gap:10px
+}
+.card {
+  
+  text-align:-webkit-center;
+}
